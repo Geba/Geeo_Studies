@@ -1,9 +1,13 @@
 package com.example.geeostudies.app;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
+import com.example.geeostudies.app.lesson01.Lesson01MainActivity;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -15,7 +19,10 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-    @Override
+    public void openLesson01(View view) {
+        Intent intent = new Intent(this, Lesson01MainActivity.class);
+        startActivity(intent);
+    }
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.

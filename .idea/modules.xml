@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GeeoStudies.iml" filepath="$PROJECT_DIR$/GeeoStudies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geeo_Studies.iml" filepath="$PROJECT_DIR$/Geeo_Studies.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".lesson01.Lesson01MainActivity"
+            android:label="@string/title_activity_lesson01_main"
+            android:parentActivityName="com.example.geeostudies.app.MainActivity" >>
+
+        </activity>
+        <activity
+            android:name=".lesson01.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.geeostudies.app.lesson01.Lesson01MainActivity" >
+        </activity>
     </application>
 
 </manifest>
