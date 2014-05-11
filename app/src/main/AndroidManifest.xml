@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.geeostudies.app" >
-
+    <uses-sdk android:minSdkVersion="7"  android:targetSdkVersion="18" />
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -17,15 +17,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".lesson01.Lesson01MainActivity"
+            android:name="com.example.geeostudies.app.lesson01.Lesson01MainActivity"
             android:label="@string/title_activity_lesson01_main"
-            android:parentActivityName="com.example.geeostudies.app.MainActivity" >>
-
+            android:parentActivityName="com.example.geeostudies.app.MainActivity" >
+>
         </activity>
         <activity
-            android:name=".lesson01.DisplayMessageActivity"
+            android:name="com.example.geeostudies.app.lesson01.DisplayMessageActivity"
             android:label="@string/title_activity_display_message"
             android:parentActivityName="com.example.geeostudies.app.lesson01.Lesson01MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.geeostudies.app.lesson02.Lesson02MainActivity"
+            android:label="@string/title_activity_lesson02_main"
+            android:parentActivityName="com.example.geeostudies.app.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name="com.example.geeostudies.app.testes.TestsMainActivity"
+            android:label="@string/title_activity_tests_main"
+            android:parentActivityName="com.example.geeostudies.app.MainActivity" >
         </activity>
     </application>
 

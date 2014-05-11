@@ -4,9 +4,13 @@
     <string name="app_name">Geeo Studies</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_lesson01_main">Lesson01MainActivity</string>
-    <string name="edit_message">Enter a message</string>
+    <string name="title_activity_lesson01_main">Abrir Activity</string>
+    <string name="edit_message">Enter a messag89898e</string>
     <string name="button_send">Send</string>
     <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="title_activity_lesson02_main">Lesson02MainActivity</string>
+    <string name="tests">Tests</string>
+    <string name="title_activity_tests_main">TestsMainActivity</string>
+    <string name="action_search">Search</string>
 
 </resources>
